@@ -42,8 +42,8 @@ Classification Report:
 1. Clone this repository:
 
 ```
-git clone https://github.com/yourusername/pca-cancer-analysis.git
-cd pca-cancer-analysis
+git clone https://github.com/Ebenezer-ebu/pca-cancer.git
+cd pca-cancer
 ```
 
 2. Install required libraries:
