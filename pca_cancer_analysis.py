@@ -7,10 +7,10 @@ from sklearn.metrics import classification_report, accuracy_score
 
 # Step 1: Load the breast cancer dataset
 data = load_breast_cancer()
-X = data.data        # features (numbers that describe tumors)
-y = data.target      # labels (0 = malignant, 1 = benign)
+X = data.data
+y = data.target   
 
-# Step 2: Standardize the features (make all features on similar scale)
+# Step 2: Standardize the features
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
 
